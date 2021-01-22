@@ -1,0 +1,309 @@
+jayamvimal_wsl1@JayamVimal:/mnt/e/Javafiles/Testing/Genetic$ java min_GeneticAlgo.java
+Executed Genetic Algortithm for finding minimum of 3 input numbers.
+Enter No.of Testcases.
+Value : can be greater than or equal to 1
+4
+Enter the number of input set for Each Testcase
+Value :  greater than equal to 5. Since Cyclomatic complexity has 5 Paths in the code written
+7
+
+**********************************Executing Genetic algorithm Min of three numbers. Testcase No : 1 ****************************************************
+
+Input set 1 : 18 5 20   ;       Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 10 14 4   ;       Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 19 4 2   ;        Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 2 17 9   ;        Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 8 18 15   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 17 8 18   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 8 15 12   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 18 5 22   ;       Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 10 14 6   ;       Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 19 4 0   ;        Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 2 17 11   ;       Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 8 18 13   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 17 8 16   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 8 15 14   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 16 5 22   ;       Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 8 14 6   ;        Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 17 4 0   ;        Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 0 17 11   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 10 18 13   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 19 8 16   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 10 15 14   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 16 133 22   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 8 142 6   ;       Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 17 132 0   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 0 145 11   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 10 146 13   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 19 136 16   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 7 : 10 143 14   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 40  percent
+ Performing CrossOver...
+Input set 1 : 0 23 148   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 2 : 142 8 6   ;       Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 3 : 1 144 4   ;       Min Val :1      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 4 : 0 17 139   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 5 : 138 14 17   ;     Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 11 16 144   ;     Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 7 : 138 15 14   ;     Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 9, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 0 23 20   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 142 8 134   ;     Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 3 : 1 144 132   ;     Min Val :1      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 4 : 0 17 11   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 138 14 145   ;    Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 11 16 16   ;      Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 7 : 138 15 142   ;    Min Val :15     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 40  percent
+ Performing CrossOver...
+Input set 1 : 0 23 20   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 134 138 12   ;    Min Val :12     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 133 128 16   ;    Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 0 19 9   ;        Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 128 30 139   ;    Min Val :30     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 11 16 16   ;      Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 7 : 142 143 10   ;    Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 128 23 20   ;     Min Val :20     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 2 : 6 138 12   ;      Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 5 128 16   ;      Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 4 : 128 19 9   ;      Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 5 : 0 30 139   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 139 16 16   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 7 : 14 143 10   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 128 87 20   ;     Min Val :20     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 2 : 6 202 12   ;      Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 5 192 16   ;      Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 4 : 128 83 9   ;      Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 5 : 0 94 139   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 139 80 16   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 7 : 14 207 10   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 128 87 84   ;     Min Val :84     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 2 : 6 202 76   ;      Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 5 192 80   ;      Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 4 : 128 83 73   ;     Min Val :73     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 5 : 0 94 203   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 139 80 80   ;     Min Val :80     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 7 : 14 207 74   ;     Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 60  percent
+ Performing CrossOver...
+Input set 1 : 68 151 80   ;     Min Val :68     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 74 198 12   ;     Min Val :12     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 209 0 68   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 4 : 80 67 137   ;     Min Val :67     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 5 : 14 88 195   ;     Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 89 0 210   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 78 207 10   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 4 151 80   ;      Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 10 198 12   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 145 0 68   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 4 : 16 67 137   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 5 : 78 88 195   ;     Min Val :78     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 25 0 210   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 14 207 10   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 4 183 80   ;      Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 10 230 12   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 145 32 68   ;     Min Val :32     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 4 : 16 99 137   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 5 : 78 120 195   ;    Min Val :78     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 25 32 210   ;     Min Val :25     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 7 : 14 239 10   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 4 183 112   ;     Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 10 230 44   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 145 32 100   ;    Min Val :32     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 4 : 16 99 169   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 5 : 78 120 227   ;    Min Val :78     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 25 32 242   ;     Min Val :25     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 7 : 14 239 42   ;     Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 60  percent
+ Performing CrossOver...
+Input set 1 : 134 117 48   ;    Min Val :48     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 2 : 106 140 38   ;    Min Val :38     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 145 96 36   ;     Min Val :36     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 112 11 161   ;    Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 5 : 90 238 97   ;     Min Val :90     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 25 48 226   ;     Min Val :25     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 7 : 46 75 174   ;     Min Val :46     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 3, 10]
+Path covered by above TestCase: 100  percent
+ Satisfied!!!!!!!!!
+
+**********************************Executing Genetic algorithm Min of three numbers. Testcase No : 2 ****************************************************
+
+Input set 1 : 5 15 5   ;        Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 2 : 7 20 16   ;       Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 4 1 16   ;        Min Val :1      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 4 : 17 0 15   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 5 : 2 1 11   ;        Min Val :1      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 1 12 15   ;       Min Val :1      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 7 : 17 15 9   ;       Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 9, 10]
+Path covered by above TestCase: 100  percent
+ Satisfied!!!!!!!!!
+
+**********************************Executing Genetic algorithm Min of three numbers. Testcase No : 3 ****************************************************
+
+Input set 1 : 10 12 7   ;       Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 2 : 6 16 8   ;        Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 10 16 14   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 4 : 11 14 12   ;      Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 14 17 12   ;      Min Val :12     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 6 : 6 18 5   ;        Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 7 : 19 15 1   ;       Min Val :1      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 9, 10]
+Path covered by above TestCase: 60  percent
+ Performing CrossOver...
+Input set 1 : 10 14 5   ;       Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 2 : 0 6 24   ;        Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 3 : 26 14 0   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 15 10 12   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 5 : 14 13 16   ;      Min Val :13     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 18 4 7   ;        Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 19 7 9   ;        Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 10 14 7   ;       Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 2 : 0 6 26   ;        Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 3 : 26 14 2   ;       Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 15 10 14   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 5 : 14 13 18   ;      Min Val :13     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 18 4 5   ;        Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 19 7 11   ;       Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 8 14 7   ;        Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 2 : 2 6 26   ;        Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 3 : 24 14 2   ;       Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 13 10 14   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 5 : 12 13 18   ;      Min Val :12     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 6 : 16 4 5   ;        Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 17 7 11   ;       Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 8 142 7   ;       Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 2 : 2 134 26   ;      Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 3 : 24 142 2   ;      Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 13 138 14   ;     Min Val :13     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 12 141 18   ;     Min Val :12     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 16 132 5   ;      Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 7 : 17 135 11   ;     Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 40  percent
+ Performing CrossOver...
+Input set 1 : 10 134 13   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 26 6 130   ;      Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 3 : 26 134 8   ;      Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 13 14 138   ;     Min Val :13     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 5 : 2 157 12   ;      Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 16 132 5   ;      Min Val :5      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 7 : 9 7 147   ;       Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 10 134 141   ;    Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 2 : 26 6 2   ;        Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 3 : 26 134 136   ;    Min Val :26     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 4 : 13 14 10   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 5 : 2 157 140   ;     Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 16 132 133   ;    Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 7 : 9 7 19   ;        Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 100  percent
+ Satisfied!!!!!!!!!
+
+**********************************Executing Genetic algorithm Min of three numbers. Testcase No : 4 ****************************************************
+
+Input set 1 : 12 0 11   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 12 19 1   ;       Min Val :1      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 8 20 6   ;        Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 11 19 14   ;      Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 10 16 11   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 16 16 2   ;       Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 7 : 8 20 12   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 12 0 9   ;        Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 12 19 3   ;       Min Val :3      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 8 20 4   ;        Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 11 19 12   ;      Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 10 16 9   ;       Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 6 : 16 16 0   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 7 : 8 20 14   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 14 0 9   ;        Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 14 19 3   ;       Min Val :3      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 10 20 4   ;       Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 9 19 12   ;       Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 8 16 9   ;        Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 18 16 0   ;       Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 7 : 10 20 14   ;      Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 14 128 9   ;      Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 2 : 14 147 3   ;      Min Val :3      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 3 : 10 148 4   ;      Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 9 147 12   ;      Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 8 144 9   ;       Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 18 144 0   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 7 : 10 148 14   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Path covered by above TestCase: 40  percent
+ Performing CrossOver...
+Input set 1 : 6 8 137   ;       Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 2 : 138 7 19   ;      Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 3 : 26 132 4   ;      Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 3 25 140   ;      Min Val :3      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 5 : 136 8 17   ;      Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 18 16 128   ;     Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 136 14 22   ;     Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 60  percent
+ Performing CrossOver...
+Input set 1 : 132 8 11   ;      Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 146 7 11   ;      Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 3 : 28 132 2   ;      Min Val :2      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Input set 4 : 3 157 8   ;       Min Val :3      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 128 24 9   ;      Min Val :9      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 6 : 146 16 0   ;      Min Val :0      From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 7 : 148 14 10   ;     Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 9, 10]
+Path covered by above TestCase: 80  percent
+ Performing Mutation...
+Input set 1 : 132 8 139   ;     Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 146 7 139   ;     Min Val :7      From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 3 : 28 132 130   ;    Min Val :28     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 4 : 3 157 136   ;     Min Val :3      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 5 : 128 24 137   ;    Min Val :24     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 6 : 146 16 128   ;    Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 148 14 138   ;    Min Val :14     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 40  percent
+ Performing CrossOver...
+Input set 1 : 10 136 133   ;    Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 2 : 134 19 139   ;    Min Val :19     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 3 : 128 4 158   ;     Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 4 : 153 133 10   ;    Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 5 : 8 152 129   ;     Min Val :8      From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 144 16 130   ;    Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 7 : 142 4 154   ;     Min Val :4      From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 7, 8, 10]
+Path covered by above TestCase: 60  percent
+ Performing CrossOver...
+Input set 1 : 136 10 133   ;    Min Val :10     From Cyclomatic complexity 5 (unique) Paths, Current input set 1 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 2 : 150 11 131   ;    Min Val :11     From Cyclomatic complexity 5 (unique) Paths, Current input set 2 chooses path nodes : [0, 1, 7, 8, 10]
+Input set 3 : 132 128 30   ;    Min Val :30     From Cyclomatic complexity 5 (unique) Paths, Current input set 3 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 4 : 153 137 6   ;     Min Val :6      From Cyclomatic complexity 5 (unique) Paths, Current input set 4 chooses path nodes : [0, 1, 7, 9, 10]
+Input set 5 : 24 136 129   ;    Min Val :24     From Cyclomatic complexity 5 (unique) Paths, Current input set 5 chooses path nodes : [0, 1, 2, 4, 5, 10]
+Input set 6 : 16 128 146   ;    Min Val :16     From Cyclomatic complexity 5 (unique) Paths, Current input set 6 chooses path nodes : [0, 1, 2, 3, 10]
+Input set 7 : 134 138 28   ;    Min Val :28     From Cyclomatic complexity 5 (unique) Paths, Current input set 7 chooses path nodes : [0, 1, 2, 4, 6, 10]
+Path covered by above TestCase: 100  percent
+ Satisfied!!!!!!!!!
+jayamvimal_wsl1@JayamVimal:/mnt/e/Javafiles/Testing/Genetic$

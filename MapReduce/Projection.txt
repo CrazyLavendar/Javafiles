@@ -1,0 +1,14 @@
+Project operation from Relation (R)
+
+Mapper for Project P(key, value):
+{
+    for all tuple(t) in R:
+        S(t) = new tuple except attributes not in P
+        Output = (t, S(t))
+}
+Reducer(key, value):(t, S(t))
+{
+    for each tuple(t) in S:
+         (key , value) = (t , S(t))
+         print(value) // Order based on key
+}

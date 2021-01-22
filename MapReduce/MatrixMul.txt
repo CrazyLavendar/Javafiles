@@ -1,0 +1,17 @@
+Matrix A(i,j) * B(i,j)
+
+Mapper for Matrix A*B (key, value):
+{
+    for all k :
+    Key , Value = ((i, k), (A, j, Aij))  // Mapping Matrix A
+    for all i 
+    Key , Value = ((i, k), (B, j, Bij)) // Mapping Matrix B
+
+}
+Reducer(key, value): ((i, k), (A, j, Aij)) && ((i, k), (B, j, Bij)):
+{
+    
+    (i, k)=>Make sorted Alist and Blist 
+    (i, k) => Summation (Aij * Bjk)) for j 
+    Output =>((i, k), sum) // Total key & values
+}

@@ -30,7 +30,7 @@ public class quicksort {
         int pivot = array[start];
         int i = start + 1;
         for (int j = i; j <= end; j++) {
-            if (array[j] <= pivot) {
+            if (array[j] < pivot) { // changing  to > gives descnding order
                 swap(array, i++, j);
             }
         }

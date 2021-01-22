@@ -1,0 +1,16 @@
+Relation (S) Natural Join Relation (R)
+
+Mapper for Project P(key, value):
+{
+    for m tuple(t) in R:
+        (key,value) = (m , R(t));
+    for n tuple(t) in S :
+        if(S(t) not equal to R(t)) 
+        then (key, value) = (n, S(t)); 
+}
+Reducer(key, value):(m , R(t)) && (n, S(t))
+{
+    for each tuple(t) in R(t) and S(t):
+         (key , value) = (0 to m , R(t)) + (m to n , S(t));
+         project(value) // 
+}

@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ASEendExam",
+            "request": "launch",
+            "mainClass": "ASEendExam",
+            "projectName": "Testing_498685c"
+        },
+        {
+            "type": "java",
+            "name": "Launch CFG_adjList",
+            "request": "launch",
+            "mainClass": "Genetic.CFG_adjList",
+            "projectName": "Testing_498685c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Graph",
+            "request": "launch",
+            "mainClass": "Genetic.Graph",
+            "projectName": "Testing_498685c"
+        },
+        {
+            "type": "java",
+            "name": "Launch min_GeneticAlgo",
+            "request": "launch",
+            "mainClass": "Genetic.min_GeneticAlgo",
+            "projectName": "Testing_498685c"
+        },
+        {
+            "type": "java",
+            "name": "Launch boundary",
+            "request": "launch",
+            "mainClass": "functional.boundary",
+            "projectName": "Testing_498685c"
+        },
+        {
+            "type": "java",
+            "name": "Launch robustWorstCase",
+            "request": "launch",
+            "mainClass": "functional.robustWorstCase",
+            "projectName": "Testing_498685c"
+        },
+        {
+            "type": "java",
+            "name": "Launch robustness",
+            "request": "launch",
+            "mainClass": "functional.robustness",
+            "projectName": "Testing_498685c"
+        },
+        {
+            "type": "java",
+            "name": "Launch worstcase",
+            "request": "launch",
+            "mainClass": "functional.worstcase",
+            "projectName": "Testing_498685c"
+        }
+    ]
+}

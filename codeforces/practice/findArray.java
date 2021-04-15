@@ -1,68 +1,61 @@
+/*Jayam Vimal - java template*/
+
 import java.io.*;
 import java.util.*;
 
-public class A {
+public class findArray {
 
     static PrintWriter out = new PrintWriter(System.out);
     static FastReader in = new FastReader();
+    // static Pair[] moves = new Pair[] { new Pair(-1, 0), new Pair(1, 0), new
+    // Pair(0, -1), new Pair(0, 1) };
     static long mod = (long) 1e9 + 7;
+    static long max = (long) 1e9;
 
     public static void main(String[] args) {
 
-        int mem = 200001;
-        long[][] dp = new long[10][mem];
-        for (int i = 0; i <= 9; i++)
-            dp[i][0] = 1;
-        for (int i = 1; i < mem; i++) {
-
-            for (int j = 0; j <= 8; j++) {
-                dp[j][i] = dp[j + 1][i - 1];
-            }
-            dp[9][i] = dp[0][i - 1] + dp[1][i - 1];
-            dp[9][i] = dp[9][i] % mod;
-        }
-
-        // for (int i = 0; i < 100; i++) {
-        // for (int j = 0; j < 9; j++) {
-        // out.print(dp[j][i] + " ");
-        // }
-        // out.println("");
-        // }
-
         int t = i();
         while (t-- > 0) {
-            int m = i(), n = i();
-            long ans = 0l;
-            // StringBuilder sb = new StringBuilder();
-            while (m > 0) {
-                int val = m % 10;
-                ans += dp[val][n];
-                // out.println(ans);
-                m /= 10;
-                ans = ans % mod;
+
+            int n = i();
+            long[] a = new long[n];
+            long sum = 0l;
+            for (int i = 0; i < n; i++) {
+                a[i] = i();
+                sum += a[i];
             }
-            out.println(ans);
+            long avg = sum / n;
+            long[] alpha = new long[3];
+            alpha[0] = 1;
+            if (2 * avg > max) {
+                alpha[1] = max / 2;
+                alpha[2] = max;
+            } else {
+                alpha[1] = avg;
+                alpha[2] = 2 * avg;
+            }
+
+            long[] b = new long[n];
+            for (int num = 0; num < n; num++) {
+                long min = Long.MAX_VALUE;
+                int index = 0;
+                for (int i = 0; i < 3; i++) {
+                    if (min > Math.abs(a[num] - alpha[i])) {
+                        index = i;
+                        min = Math.abs(a[num] - alpha[i]);
+                    }
+                }
+                b[num] = alpha[index];
+            }
+            for (int i = 0; i < n; i++)
+                out.print(b[i] + " ");
+
+            out.println("");
         }
+        // out.println(t);
 
         out.flush();
-    }
 
-    static int[] iArrList_Arr(List<Integer> list) {
-        int l = list.size();
-        int[] arr = new int[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
-    }
-
-    static char[] cArrList_Arr(List<Character> list) {
-        int l = list.size();
-        char[] arr = new char[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
     }
 
     static void swap(int A[], int a, int b) {

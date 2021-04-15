@@ -1,68 +1,47 @@
+/*Jayam Vimal - java template*/
+
 import java.io.*;
 import java.util.*;
 
-public class A {
+public class C {
 
     static PrintWriter out = new PrintWriter(System.out);
     static FastReader in = new FastReader();
+    // static Pair[] moves = new Pair[] { new Pair(-1, 0), new Pair(1, 0), new
+    // Pair(0, -1), new Pair(0, 1) };
     static long mod = (long) 1e9 + 7;
 
     public static void main(String[] args) {
 
-        int mem = 200001;
-        long[][] dp = new long[10][mem];
-        for (int i = 0; i <= 9; i++)
-            dp[i][0] = 1;
-        for (int i = 1; i < mem; i++) {
-
-            for (int j = 0; j <= 8; j++) {
-                dp[j][i] = dp[j + 1][i - 1];
-            }
-            dp[9][i] = dp[0][i - 1] + dp[1][i - 1];
-            dp[9][i] = dp[9][i] % mod;
-        }
-
-        // for (int i = 0; i < 100; i++) {
-        // for (int j = 0; j < 9; j++) {
-        // out.print(dp[j][i] + " ");
-        // }
-        // out.println("");
-        // }
-
         int t = i();
         while (t-- > 0) {
-            int m = i(), n = i();
-            long ans = 0l;
-            // StringBuilder sb = new StringBuilder();
-            while (m > 0) {
-                int val = m % 10;
-                ans += dp[val][n];
-                // out.println(ans);
-                m /= 10;
-                ans = ans % mod;
+
+            int b = i(), g = i(), k = i();
+            int[] boys = new int[b];
+            int[] girls = new int[g];
+            int[][] pairs = new int[2][k];
+
+            for (int i = 0; i < k; i++)
+                pairs[0][i] = i();
+
+            for (int i = 0; i < k; i++)
+                pairs[1][i] = i();
+
+            long res = 0l;
+            for (int i = 0; i < k; i++) {
+                int bb = pairs[0][i], gg = pairs[1][i];
+                for (int j = i + 1; j < k; j++) {
+                    if (bb != pairs[0][j] && gg != pairs[1][j]) {
+                        res++;
+                        // System.out.println(bb + " " + gg + " " + pairs[0][j] + " " + pairs[1][j]);
+                    }
+                }
+
             }
-            out.println(ans);
+            out.println(res);
         }
 
         out.flush();
-    }
-
-    static int[] iArrList_Arr(List<Integer> list) {
-        int l = list.size();
-        int[] arr = new int[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
-    }
-
-    static char[] cArrList_Arr(List<Character> list) {
-        int l = list.size();
-        char[] arr = new char[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
     }
 
     static void swap(int A[], int a, int b) {

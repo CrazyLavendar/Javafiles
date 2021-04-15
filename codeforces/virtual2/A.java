@@ -1,3 +1,5 @@
+/*Jayam Vimal - java template*/
+
 import java.io.*;
 import java.util.*;
 
@@ -5,64 +7,25 @@ public class A {
 
     static PrintWriter out = new PrintWriter(System.out);
     static FastReader in = new FastReader();
+    // static Pair[] moves = new Pair[] { new Pair(-1, 0), new Pair(1, 0), new
+    // Pair(0, -1), new Pair(0, 1) };
     static long mod = (long) 1e9 + 7;
 
     public static void main(String[] args) {
 
-        int mem = 200001;
-        long[][] dp = new long[10][mem];
-        for (int i = 0; i <= 9; i++)
-            dp[i][0] = 1;
-        for (int i = 1; i < mem; i++) {
-
-            for (int j = 0; j <= 8; j++) {
-                dp[j][i] = dp[j + 1][i - 1];
-            }
-            dp[9][i] = dp[0][i - 1] + dp[1][i - 1];
-            dp[9][i] = dp[9][i] % mod;
-        }
-
-        // for (int i = 0; i < 100; i++) {
-        // for (int j = 0; j < 9; j++) {
-        // out.print(dp[j][i] + " ");
-        // }
-        // out.println("");
-        // }
-
         int t = i();
         while (t-- > 0) {
-            int m = i(), n = i();
-            long ans = 0l;
-            // StringBuilder sb = new StringBuilder();
-            while (m > 0) {
-                int val = m % 10;
-                ans += dp[val][n];
-                // out.println(ans);
-                m /= 10;
-                ans = ans % mod;
-            }
+
+            int n = i(), m = i();
+
+            String ans = (n % m == 0) ? "YES" : "NO";
+
             out.println(ans);
+
         }
+        // out.println(t);
 
         out.flush();
-    }
-
-    static int[] iArrList_Arr(List<Integer> list) {
-        int l = list.size();
-        int[] arr = new int[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
-    }
-
-    static char[] cArrList_Arr(List<Character> list) {
-        int l = list.size();
-        char[] arr = new char[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
     }
 
     static void swap(int A[], int a, int b) {

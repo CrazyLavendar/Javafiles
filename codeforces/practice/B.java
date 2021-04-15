@@ -1,68 +1,59 @@
+/*Jayam Vimal - java template*/
+
 import java.io.*;
 import java.util.*;
 
-public class A {
+public class B {
 
     static PrintWriter out = new PrintWriter(System.out);
     static FastReader in = new FastReader();
+    // static Pair[] moves = new Pair[] { new Pair(-1, 0), new Pair(1, 0), new
+    // Pair(0, -1), new Pair(0, 1) };
     static long mod = (long) 1e9 + 7;
 
     public static void main(String[] args) {
 
-        int mem = 200001;
-        long[][] dp = new long[10][mem];
-        for (int i = 0; i <= 9; i++)
-            dp[i][0] = 1;
-        for (int i = 1; i < mem; i++) {
+        // ArrayList<Integer> list = new ArrayList<>();
 
-            for (int j = 0; j <= 8; j++) {
-                dp[j][i] = dp[j + 1][i - 1];
-            }
-            dp[9][i] = dp[0][i - 1] + dp[1][i - 1];
-            dp[9][i] = dp[9][i] % mod;
+        // populate(list, 0);
+
+        boolean[] dp = new boolean[1000001];
+
+        dp[2020] = true;
+        dp[2021] = true;
+        for (int i = 2022; i < 1000001; i++) {
+            dp[i] = dp[i - 2020] || dp[i - 2021];
         }
 
-        // for (int i = 0; i < 100; i++) {
-        // for (int j = 0; j < 9; j++) {
-        // out.print(dp[j][i] + " ");
-        // }
-        // out.println("");
-        // }
+        // for (int x : list)
+        // out.println(x);
 
         int t = i();
         while (t-- > 0) {
-            int m = i(), n = i();
-            long ans = 0l;
-            // StringBuilder sb = new StringBuilder();
-            while (m > 0) {
-                int val = m % 10;
-                ans += dp[val][n];
-                // out.println(ans);
-                m /= 10;
-                ans = ans % mod;
-            }
-            out.println(ans);
+
+            if (dp[i()])
+                out.println("YES");
+            else
+                out.println("NO");
+
         }
+        // out.println(t);
 
         out.flush();
     }
 
-    static int[] iArrList_Arr(List<Integer> list) {
-        int l = list.size();
-        int[] arr = new int[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
-        }
-        return arr;
-    }
+    private static void populate(ArrayList<Integer> list, int val) {
 
-    static char[] cArrList_Arr(List<Character> list) {
-        int l = list.size();
-        char[] arr = new char[l];
-        for (int i = 0; i < l; i++) {
-            arr[i] = list.get(i);
+        if (val > 1000000 || list.contains(val)) {
+            return;
         }
-        return arr;
+        list.add(val);
+        int[] arr = new int[] { 2020, 2021 };
+        for (int i = 0; i < arr.length; i++) {
+
+            populate(list, val + arr[i]);
+        }
+
     }
 
     static void swap(int A[], int a, int b) {

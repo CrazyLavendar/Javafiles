@@ -10,7 +10,7 @@ public class unboundedKnapsac {
         for (int i = 0; i <= W; i++) {
             for (int j = 0; j < n; j++) {
                 if (wt[j] <= i) {
-                    dp[i] = max(dp[i], dp[i - wt[j]] + val[j]);
+                    dp[i] = Math.max(dp[i], dp[i - wt[j]] + val[j]);
                 }
             }
         }
@@ -21,22 +21,20 @@ public class unboundedKnapsac {
 
         // Recursion - Exponential
         /*
-         * if(n<= 0) return 0; int max =0; for(int i =0 ; i< n ; i++) // 0 to n-2 means
-         * 1 cut , n-1 means take full piece max = Math.max(max , price[i] +
-         * cutRod(price , n-i-1)); return max;
+         * if(n<= 0) return 0; int max =0;
+         for(int i =0 ; i< n ; i++) 
+         // 0 to n-2 means1 cut , n-1 means take full piece 
+         max = Math.max(max , price[i] + cutRod(price , n-i-1)); return max;
          */
 
         // Using DP
-        int[] val = new int[n + 1];
-        val[0] = 0; // no cut;
-
-        int max = 0;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j < i; j++) {
-                max = Math.max(max, price[j] + val[i - j - 1]);
+        int[] dp = new int[n + 1];
+        for (int i = 1; i <= n; i++) { // rod sizes
+            for (int j = 0; j <= n; j++) {
+                if (i > j)
+                    dp[i] = Math.max(dp[i], price[j] + dp[i - j - 1]);
             }
-            val[i] = max;
         }
-        return val[n];
+        return dp[n];
     }
 }
